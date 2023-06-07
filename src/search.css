@@ -1,0 +1,27 @@
+.main{
+background-color: rgb(65, 61, 58);
+height:2000px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 40%;
+  background-color:white;
+}
+.result{
+    margin-top: 20px;
+}
+.search-bar{
+    width: 30%;
+    height: 45px;
+    background-color: rgb(244, 226, 201);
+ }
+
+ .show{
+    margin-left: 10px;
+    width: 8%;
+    height: 45px;
+ }
+ 
