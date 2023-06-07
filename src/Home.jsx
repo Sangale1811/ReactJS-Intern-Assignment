@@ -11,7 +11,6 @@ import {  Link } from 'react-router-dom';
 
 const Home=()=>{
 
-
   return(
     <>
    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -33,14 +32,11 @@ const Home=()=>{
         </li>
         </ul>
       <form className="d-flex">
-       
         <Link to="/search" className="btn btn-outline-success" type="submit" style={{marginLeft:"290px"}}>Search </Link>
-
       </form>
     </div>
   </div>
 </nav>
-
 
 <div className="container" >
  <h1 className="recommend"> 📺 Sample Shows 📺</h1>
@@ -65,17 +61,6 @@ const Home=()=>{
         </div>
       </div>
     </div>
-    {/* <div className="col-sm-4">
-      <div className="card">
-        <img src={movie} className="card-img-top" alt="Image 3"/>
-        <div className="card-body">
-          <h5 className="card-title">All Souls</h5>
-          <p className="card-text">"All Souls" is a medical drama television series that revolves around the lives and work of doctors, nurses, and staff at a prestigious teaching hospital.</p>
-          <a href="#" className="btn btn-primary" style={{marginLeft:"15px"}}>view Details</a>
-        </div>
-      </div>
-    </div> */}
-   
   </div>
 </div>
 
