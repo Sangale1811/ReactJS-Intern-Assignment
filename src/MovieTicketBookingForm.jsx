@@ -151,5 +151,4 @@ const MovieTicketBookingForm = () => {
     </form>
   );
 };
-
 export default MovieTicketBookingForm;
