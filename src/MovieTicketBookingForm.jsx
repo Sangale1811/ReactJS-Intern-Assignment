@@ -92,7 +92,7 @@ const MovieTicketBookingForm = () => {
             onChange={handleChange}
             required
           />
-          <br />
+          <br/>
 
           <input
             type="time"
