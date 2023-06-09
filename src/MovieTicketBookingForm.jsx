@@ -132,7 +132,9 @@ const MovieTicketBookingForm = () => {
             name="paymentMethod"
             placeholder="Payment Method"
             class="form-select"
-          >
+           value={formData.paymentMethod}
+            onChange={handleChange} 
+        >
             <option value="" disabled selected>
               Payment method
             </option>
